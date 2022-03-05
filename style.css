@@ -5,7 +5,7 @@
  padding:0;
 }
 body{
-    background: url(fon(2).jpg);
+    background: url(fon.jpg);
     background-repeat: no-repeat;
     background-size:cover ;
     min-height: 50vh;
