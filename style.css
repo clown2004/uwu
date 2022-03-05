@@ -1,0 +1,73 @@
+
+
+
+*{margin:0;
+ padding:0;
+}
+body{
+    background: url(fon\(2\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    min-height: 50vh;
+    min-width: 50vh;
+}
+
+
+
+.sprite-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.sprite-image {
+    height: 123px;
+    width: 70px;
+    background: url(smur-sprite.png) 0px 0px;
+    animation: play 0.6s steps(16) infinite,
+        step 10s linear infinite;
+    position: absolute;
+    top: 71%;
+
+
+    left: 0;
+
+}
+
+@keyframes play {
+    100% {
+        background-position: -1135px;
+    }
+}
+
+@keyframes step {
+    100% {
+        left: 100%;
+    }
+}
+/* 
+.sprite-container2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+} */
+
+
+.sprite-image2{
+    height: 84px;
+    width: 146px;
+    background: url(starwars.png) 0px 0px;
+    animation: starwars 0.6s steps(1) infinite,
+    starwars 10s linear infinite;
+    position: absolute;
+    top: 20%;
+
+
+    right: 0;
+
+}
+
+@keyframes starwars{
+    100% {
+        right: 100%;
+    }}
